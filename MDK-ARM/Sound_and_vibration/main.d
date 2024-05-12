@@ -1,0 +1,46 @@
+sound_and_vibration/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h \
+  ..\Core\Inc\stm32l0xx_hal_conf.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h \
+  ..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h \
+  ..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l073xx.h \
+  ..\Drivers\CMSIS\Include\core_cm0plus.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\stdint.h \
+  C:\Users\vasar\Desktop\Sound_and_vibration_measurement\Sound_and_vibration\Drivers\CMSIS\Include\cmsis_version.h \
+  C:\Users\vasar\Desktop\Sound_and_vibration_measurement\Sound_and_vibration\Drivers\CMSIS\Include\cmsis_compiler.h \
+  C:\Users\vasar\Desktop\Sound_and_vibration_measurement\Sound_and_vibration\Drivers\CMSIS\Include\cmsis_armclang.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h \
+  C:\Users\vasar\Desktop\Sound_and_vibration_measurement\Sound_and_vibration\Drivers\CMSIS\Include\mpu_armv7.h \
+  ..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\stddef.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h \
+  ..\..\Sound_and_vibration_statechart\src\sc_types.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h \
+  ..\..\Sound_and_vibration_statechart\src-gen\Statechart.h \
+  ..\..\Sound_and_vibration_statechart\src-gen\..\src\sc_types.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\string.h \
+  ..\..\Sound_and_vibration_statechart\src-gen\Statechart_required.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\math.h ..\Core\Inc\TJ_MPU6050.h \
+  ..\Core\Inc\ssd1306.h ..\Core\Inc\fonts.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\stdio.h

@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Vasare Pilkaite, Kaunas university of technology, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.39.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.21
+Assembler:       Armasm.exe V6.21
+Linker/Locator:  ArmLink.exe V6.21
+Library Manager: ArmAr.exe V6.21
+Hex Converter:   FromElf.exe V6.21
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.2.0.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+C:\Users\vasar\Desktop\Sound_and_vibration_measurement\Sound_and_vibration\MDK-ARM\Sound_and_vibration.uvprojx
+Project File Date:  05/11/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.21', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Sound_and_vibration'
+compiling stm32l0xx_it.c...
+compiling stm32l0xx_hal_msp.c...
+../Core/Src/main.c(242): warning: passing 'uint8_t[40]' (aka 'unsigned char[40]') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  242 |                 if (HAL_UART_Transmit_IT(&huart2, UART_TxBuffer_ADC, strlen(UART_TxBuffer_ADC))!=HAL_OK)
+      |                                                                             ^~~~~~~~~~~~~~~~~
+C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h(335): note: passing argument to parameter here
+  335 | extern _ARMABI size_t strlen(const char * /*s*/) __attribute__((__nonnull__(1)));
+      |                                                ^
+../Core/Src/main.c(325): warning: passing 'uint8_t[60]' (aka 'unsigned char[60]') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  325 |                 if (HAL_UART_Transmit_IT(&huart2, UART_TxBuffer_I2C, strlen(UART_TxBuffer_I2C))!=HAL_OK)
+      |                                                                             ^~~~~~~~~~~~~~~~~
+C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h(335): note: passing argument to parameter here
+  335 | extern _ARMABI size_t strlen(const char * /*s*/) __attribute__((__nonnull__(1)));
+      |                                                ^
+2 warnings generated.
+compiling main.c...
+compiling stm32l0xx_hal_adc_ex.c...
+compiling stm32l0xx_hal_adc.c...
+compiling stm32l0xx_hal.c...
+compiling stm32l0xx_hal_i2c_ex.c...
+compiling stm32l0xx_hal_rcc.c...
+compiling stm32l0xx_hal_rcc_ex.c...
+compiling stm32l0xx_hal_flash_ramfunc.c...
+compiling stm32l0xx_hal_flash.c...
+compiling stm32l0xx_hal_i2c.c...
+compiling stm32l0xx_hal_flash_ex.c...
+compiling stm32l0xx_hal_gpio.c...
+compiling stm32l0xx_hal_pwr.c...
+compiling stm32l0xx_hal_dma.c...
+compiling stm32l0xx_hal_pwr_ex.c...
+compiling stm32l0xx_hal_cortex.c...
+compiling stm32l0xx_hal_exti.c...
+compiling stm32l0xx_hal_tim_ex.c...
+compiling stm32l0xx_hal_uart_ex.c...
+compiling stm32l0xx_hal_uart.c...
+compiling system_stm32l0xx.c...
+compiling stm32l0xx_hal_tim.c...
+compiling Statechart.c...
+linking...
+Program Size: Code=26344 RO-data=4064 RW-data=24 ZI-data=8568  
+FromELF: creating hex file...
+"Sound_and_vibration\Sound_and_vibration.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L0xx_DFP.2.2.0.pack
+                Keil::STM32L0xx_DFP@2.2.0
+                STMicroelectronics STM32L0 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Sound_and_vibration
+  C:/Users/Vasare22/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/Vasare22/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.2.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.6.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
